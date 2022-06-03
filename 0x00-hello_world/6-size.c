@@ -11,12 +11,12 @@ int main(void)
 	long long int double_long_intergers;
 	float float_type;
 
-	printf("Size of a char: %zu bytes(s)\n", sizeof(characters));
-	printf("Size of an int: %zu bytes(s)\n", sizeof(intergers));
-	printf("Size of a long int: %zu bytes(s)\n", sizeof(long_intergers));
-	printf("Size of a long long int: %zu bytes(s)\n",
+	printf("Size of a char: %i bytes(s)\n", sizeof(characters));
+	printf("Size of an int: %i bytes(s)\n", sizeof(intergers));
+	printf("Size of a long int: %i bytes(s)\n", sizeof(long_intergers));
+	printf("Size of a long long int: %i bytes(s)\n",
 	sizeof(double_long_intergers));
-	printf("Size of a float: %zu bytes(s)\n", sizeof(float_type);
+	printf("Size of a float: %i bytes(s)\n", sizeof(float_type);
 	return (0);
 }
 
