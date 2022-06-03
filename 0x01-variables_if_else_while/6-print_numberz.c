@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	signed char base_Ten = '0';
+	int base_Ten = 0;
 
-	while (base_Ten <= '9')
+	while (base_Ten <= 9)
 	{
 		putchar(base_Ten);
 		base_Ten++;
