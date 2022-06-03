@@ -11,10 +11,10 @@ int main(void)
 {
 	int base_Ten = 0;
 
-	while (base_Ten <= 9)
+	while (base_Ten < 10)
 	{
 		putchar(base_Ten);
-		base_Ten++;
+		base_Ten = base_Ten + 1;
 	}
 
 	putchar('\n');
