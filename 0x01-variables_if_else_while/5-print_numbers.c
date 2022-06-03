@@ -10,9 +10,10 @@ int main(void)
 {	char base_Ten;
 
 	for (base_Ten = '0'; base_Ten <= '9'; base_Ten++)
-	{	printf("%d", base_Ten);
+	{	putchar(base_Ten);
 	}
 
+	putchar('\n');
 	return (0);
 
 }
