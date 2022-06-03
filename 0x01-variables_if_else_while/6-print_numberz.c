@@ -13,7 +13,7 @@ int main(void)
 
 	while (base_Ten < 10)
 	{
-		putchar(base_Ten);
+		putchar(48 + base_Ten);
 		base_Ten = base_Ten + 1;
 	}
 
