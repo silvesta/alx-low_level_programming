@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* main - program entry point
- *  Return : 0
+#include <stdio.h>
+
+/**
+ * main - Initial program entry point
+ * Description: Prints random numbers that are either positive, negative or equal to zero
+ * Return: 0
  */
 
 int main(void)
@@ -11,12 +15,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-	{	printf("%d is positive\n", n);
+	{	printf("%i is positive\n", n);
 	} else if (n == 0)
-	{	printf("%d is zero\n", n);
+	{	printf("%i is zero\n", n);
 	}
-	else (n < 1)
-	{	printf("%d is negative\n", n);
+	else
+	{	printf("%i is negative\n", n);
 	}
 
 	return (0);
