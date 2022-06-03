@@ -9,7 +9,7 @@
 int main(void)
 {	int base_Ten;
 
-	for (base_Ten = 0; base_Ten < 10; x++)
+	for (base_Ten = 0; base_Ten < 10; base_Ten++)
 	{	printf("%d", base_Ten);
 	}
 
