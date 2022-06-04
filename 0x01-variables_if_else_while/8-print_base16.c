@@ -11,7 +11,7 @@ int main(void)
 	char numbers = '0';
 	char letters = 'a';
 
-	while (numbers <= 9)
+	while (numbers <= '9')
 	{
 		putchar(numbers);
 		numbers++;
