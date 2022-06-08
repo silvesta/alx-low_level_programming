@@ -3,7 +3,7 @@
 /**
  * main - Entry point for the program
  * Description: Program prints the string _putchar
- * Retun: 0
+ * Return: 0
  */
 
 int main(void)
