@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * Main - Program entry point.
+ * main - Program entry point.
  * Description: Prints its name followed by a new line.
  * @argc: Number of arguments passed to the program.
- * @argc: Array of string arguments.
+ * @argv: Array of string arguments.
  * Return: 0
  */
 
