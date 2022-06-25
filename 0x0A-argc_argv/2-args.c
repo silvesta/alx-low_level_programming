@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(const int argc, char const *argv[ ])
+int main(const int argc, char const *argv[])
 {
 	int a;
 
