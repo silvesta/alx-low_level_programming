@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * alloc_grid - Function prototype.
@@ -50,7 +50,6 @@ int **alloc_grid(int width, int height)
 		}
 
 	}
-
-	return (arr);
-
+return (arr);
 }
+
