@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * *create_array - Function prototype
- * Description: Creates an array of chars
- * @size: Size of the array
- * @c: Character to fill the array with.
- * Retunr: Pointer to an array of char.
+ * create_array - Function protype.
+ * Description: creates an array of chars.
+ * @size: size of the array.
+ * @c: character to fill the array with.
+ * Return: pointer to an array of char.
  */
 
 char *create_array(unsigned int size, char c)
