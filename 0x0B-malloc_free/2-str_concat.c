@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * str_concat - Function prototype
@@ -29,14 +29,14 @@ char *str_concat(char *s1, char *s2)
 	{
 	}
 
-	p= malloc((b + c) * sizeof(char) + 1);
+	p = malloc((b + c) * sizeof(char) + 1);
 
-	if ( p == 0)
+	if (p == 0)
 		return (0);
 
 	for (a = 0; a <= b + c; a++)
 	{
-		if ( a < b)
+		if (a < b)
 			p[a] = s1[a];
 
 		else
